@@ -3,4 +3,5 @@
 	git软件的基本操作
 	JavaScript概述
 	网站操作
-	
+	汇编语言初步了解
+		十个小时的视频{"https://www.bilibili.com/video/BV1uK4y1e7tz?p=3"}
