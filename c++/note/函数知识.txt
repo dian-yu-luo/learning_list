@@ -1,0 +1,8 @@
+判断：
+	int fun(int peremeter = 0){
+		if(! peremeter){
+			cout <<参数没有发生改变<<endl;
+		}
+		else{
+		cout<<参数发生了改变<<endl;}
+	}
