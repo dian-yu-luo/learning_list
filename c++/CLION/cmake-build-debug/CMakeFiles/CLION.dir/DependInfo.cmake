@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/code/GIT/vacation_learning_list/c++/CLION/list/2.cpp" "D:/code/GIT/vacation_learning_list/c++/CLION/cmake-build-debug/CMakeFiles/CLION.dir/list/2.cpp.obj"
+  "D:/code/GIT/vacation_learning_list/c++/CLION/text_1.cpp" "D:/code/GIT/vacation_learning_list/c++/CLION/cmake-build-debug/CMakeFiles/CLION.dir/text_1.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
