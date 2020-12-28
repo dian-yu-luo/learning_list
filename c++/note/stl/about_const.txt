@@ -1,4 +1,40 @@
 const
+
+	所有情况
+	1	const int a = 16；
+	2	int b=16;
+		const int a = b；
+	3	const int * a;
+		const * int a;
+		int *const a;
+	不想写了到时候再说
+
+
+
+	类的设计者通过把成员函数声明为 const
+以表明它们不修改类对象
+			例如class Screen {
+						public:
+						char get() const { return _screen[_cursor]; }
+				// ...
+		}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	const的存在尤其必须性
 	出现const的情况：
 		bool operator==( const IntArray& ) const;
