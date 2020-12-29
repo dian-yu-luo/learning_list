@@ -6,3 +6,43 @@
 		else{
 		cout<<参数发生了改变<<endl;}
 	}
+
+	return * this 
+		返回了一个引用
+		如果有函数应该是这样的
+			Vector & operator =(const Vector & rhs){
+	        Vector copy = rhs;
+	        swap(*this ,copy);
+	        return *this;
+	    }
+
+	swap函数
+		第一次重写交换两个对象的值。 第二次重写交换两个对象数组之间的值。
+		C++
+
+		复制
+		template<class Type>
+		void swap(
+		    Type& left,
+		    Type& right);
+		template<class Type, size_t N>
+		void swap(
+		    Type (& left)[N],
+		    Type (& right)[N]);
+
+	移动构造函数
+		 Vector & operator =(Vector && rhs){
+		    swap(theSize,rhs.theSize);
+		    swap(theCapatity,rhs.theCapatity);
+		    swap(objects,rhs.objects);
+		    return *this;
+			}
+				指的就是以移动而非深拷贝的方式初始化含有指针成员的类对象。简单的理解，移动语义指的就是将其他对象（通常是临时对象）拥有的内存资源“移为已用”。
+
+
+	小贴士
+		经常使用auto
+		
+
+
+

@@ -1,2 +1,10 @@
 迭代器iterator
+	主要问题
+		获取
+			    vector<int> ::iterator itr = ve.begin();
+		操作
+			
+		参数问题
+		
+
 	
