@@ -19,5 +19,5 @@ class Object_son: public Object{
 };
 
 int main(){
-
+        cout<<"ching";
 }

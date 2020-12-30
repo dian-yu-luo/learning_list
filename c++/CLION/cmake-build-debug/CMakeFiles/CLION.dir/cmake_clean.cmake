@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "CLION.exe.manifest"
   "CLION.lib"
   "CLION.pdb"
-  "CMakeFiles/CLION.dir/myList.cpp.obj"
+  "CMakeFiles/CLION.dir/Nlist.cpp.obj"
 )
 
 # Per-language clean rules from dependency scanning.
