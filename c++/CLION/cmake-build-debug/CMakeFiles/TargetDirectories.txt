@@ -1,3 +1,0 @@
-D:/code/GIT/vacation_learning_list/c++/CLION/cmake-build-debug/CMakeFiles/CLION.dir
-D:/code/GIT/vacation_learning_list/c++/CLION/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/code/GIT/vacation_learning_list/c++/CLION/cmake-build-debug/CMakeFiles/rebuild_cache.dir
