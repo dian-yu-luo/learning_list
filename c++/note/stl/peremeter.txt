@@ -14,3 +14,5 @@ Vector(Vector &&rhs)
 
 现在在按照教程自己编写vector容器，Vector是类名
 
+左值和右值
+	右值只能放在右面

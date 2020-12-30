@@ -127,32 +127,32 @@ CLION\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLION.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLION.dir\build
 .PHONY : CLION\fast
 
-text_1.obj: text_1.cpp.obj
+Nlist.obj: Nlist.cpp.obj
 
-.PHONY : text_1.obj
+.PHONY : Nlist.obj
 
 # target to build an object file
-text_1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLION.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLION.dir\text_1.cpp.obj
-.PHONY : text_1.cpp.obj
+Nlist.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLION.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLION.dir\Nlist.cpp.obj
+.PHONY : Nlist.cpp.obj
 
-text_1.i: text_1.cpp.i
+Nlist.i: Nlist.cpp.i
 
-.PHONY : text_1.i
+.PHONY : Nlist.i
 
 # target to preprocess a source file
-text_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLION.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLION.dir\text_1.cpp.i
-.PHONY : text_1.cpp.i
+Nlist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLION.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLION.dir\Nlist.cpp.i
+.PHONY : Nlist.cpp.i
 
-text_1.s: text_1.cpp.s
+Nlist.s: Nlist.cpp.s
 
-.PHONY : text_1.s
+.PHONY : Nlist.s
 
 # target to generate assembly for a file
-text_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLION.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLION.dir\text_1.cpp.s
-.PHONY : text_1.cpp.s
+Nlist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLION.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLION.dir\Nlist.cpp.s
+.PHONY : Nlist.cpp.s
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CLION
-	@echo ... text_1.obj
-	@echo ... text_1.i
-	@echo ... text_1.s
+	@echo ... Nlist.obj
+	@echo ... Nlist.i
+	@echo ... Nlist.s
 .PHONY : help
 
 

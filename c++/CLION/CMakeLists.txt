@@ -3,4 +3,4 @@ project(CLION)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CLION text_1.cpp)
+add_executable(CLION myList.cpp)
