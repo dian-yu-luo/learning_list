@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/code/GIT/vacation_learning_list/c++/CLION/Nlist.cpp
+D:/code/GIT/vacation_learning_list/c++/CLION/myList.cpp
 iostream
--
+D:/code/GIT/vacation_learning_list/c++/CLION/iostream
+algorithm
+D:/code/GIT/vacation_learning_list/c++/CLION/algorithm
 

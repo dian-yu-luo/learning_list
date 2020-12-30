@@ -61,33 +61,33 @@ include CMakeFiles\CLION.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\CLION.dir\flags.make
 
-CMakeFiles\CLION.dir\Nlist.cpp.obj: CMakeFiles\CLION.dir\flags.make
-CMakeFiles\CLION.dir\Nlist.cpp.obj: ..\Nlist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\GIT\vacation_learning_list\c++\CLION\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLION.dir/Nlist.cpp.obj"
+CMakeFiles\CLION.dir\myList.cpp.obj: CMakeFiles\CLION.dir\flags.make
+CMakeFiles\CLION.dir\myList.cpp.obj: ..\myList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\GIT\vacation_learning_list\c++\CLION\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLION.dir/myList.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CLION.dir\Nlist.cpp.obj /FdCMakeFiles\CLION.dir\ /FS -c D:\code\GIT\vacation_learning_list\c++\CLION\Nlist.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CLION.dir\myList.cpp.obj /FdCMakeFiles\CLION.dir\ /FS -c D:\code\GIT\vacation_learning_list\c++\CLION\myList.cpp
 <<
 
-CMakeFiles\CLION.dir\Nlist.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLION.dir/Nlist.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\CLION.dir\Nlist.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\GIT\vacation_learning_list\c++\CLION\Nlist.cpp
+CMakeFiles\CLION.dir\myList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLION.dir/myList.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\CLION.dir\myList.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\GIT\vacation_learning_list\c++\CLION\myList.cpp
 <<
 
-CMakeFiles\CLION.dir\Nlist.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLION.dir/Nlist.cpp.s"
+CMakeFiles\CLION.dir\myList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLION.dir/myList.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CLION.dir\Nlist.cpp.s /c D:\code\GIT\vacation_learning_list\c++\CLION\Nlist.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CLION.dir\myList.cpp.s /c D:\code\GIT\vacation_learning_list\c++\CLION\myList.cpp
 <<
 
 # Object files for target CLION
 CLION_OBJECTS = \
-"CMakeFiles\CLION.dir\Nlist.cpp.obj"
+"CMakeFiles\CLION.dir\myList.cpp.obj"
 
 # External object files for target CLION
 CLION_EXTERNAL_OBJECTS =
 
-CLION.exe: CMakeFiles\CLION.dir\Nlist.cpp.obj
+CLION.exe: CMakeFiles\CLION.dir\myList.cpp.obj
 CLION.exe: CMakeFiles\CLION.dir\build.make
 CLION.exe: CMakeFiles\CLION.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\code\GIT\vacation_learning_list\c++\CLION\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CLION.exe"
