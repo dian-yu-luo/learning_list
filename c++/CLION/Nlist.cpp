@@ -2,6 +2,7 @@
 // Created by 点雨落山岚 on 2020/12/29.
 //
 #include <iostream>
+#include "algorithm"
 using namespace std;
 
 class Object{
@@ -20,4 +21,7 @@ class Object_son: public Object{
 
 int main(){
         cout<<"ching";
+        int a , b;
+        swap(a,b);
+        swap(a,b);
 }

@@ -1,50 +1,51 @@
 #include <iostream>
 #include <algorithm>
+
 using namespace std;
 
 template<typename Object>
-class Vector{
+class Vector {
 public:
-    explicit Vector(int initSize =0) : theSize(initSize),
-    theCapatity(initSize+SPARE_CAPACITY){
+    explicit Vector(int initSize = 0) : theSize(initSize),
+                                        theCapatity(initSize + SPARE_CAPACITY) {
         objects = new Object[theCapatity];
     }
 
-    Vector(const Vector& rhs):theSize{rhs.theSize},
-    theCapatity{rhs.theCapatity},objects{nullptr}{
-        objects = new Object[theCapatity ];
+    Vector(const Vector &rhs) : theSize{rhs.theSize},
+                                theCapatity{rhs.theCapatity}, objects{nullptr} {
+        objects = new Object[theCapatity];
         for (int i = 0; i < theSize; ++i) {
-            objects[i]=rhs.objects[i];
+            objects[i] = rhs.objects[i];
         }
     }
 
-    Vector & operator =(const Vector & rhs){
+    Vector &operator=(const Vector &rhs) {
         Vector copy = rhs;
-        swap(*this ,copy);
+        swap(*this, copy);
         return *this;
     }
 
-    ~Vector(){
+    ~Vector() {
 
         delete[]objects;
 
     }
 
-    Vector(Vector &&rhs):theSize(rhs.theSize),theCapatity(rhs.theCapatity),objects{rhs.objects}{
+    Vector(Vector &&rhs) : theSize(rhs.theSize), theCapatity(rhs.theCapatity), objects{rhs.objects} {
         rhs.objects = nullptr;
         rhs.theSize = 0;
         rhs.theCapatity = 0;
     }
 
-    Vector & operator =(Vector && rhs){
-        swap(theSize,rhs.theSize);
-        swap(theCapatity,rhs.theCapatity);
-        swap(objects,rhs.objects);
+    Vector &operator=(Vector &&rhs) {
+        swap(theSize, rhs.theSize);
+        swap(theCapatity, rhs.theCapatity);
+        swap(objects, rhs.objects);
         return *this;
     }
 
-    void resize(int newCapacity){
-        if (newCapacity<theSize){
+    void resize(int newCapacity) {
+        if (newCapacity < theSize) {
             return;
         }
 
@@ -54,76 +55,80 @@ public:
         }
 
         theCapatity = newCapacity;
-        swap(objects,newArray);
+        swap(objects, newArray);
         delete[]newArray;
     }
 
-    Object& operator[](int index){
-        return objects[index];
-    }
-    const Object & operator[](int index)const{
+    Object &operator[](int index) {
         return objects[index];
     }
 
-    bool empty()const{
-        return size()==0;
+    const Object &operator[](int index) const {
+        return objects[index];
+    }
+
+    bool empty() const {
+        return size() == 0;
 
     }
 
-    int size()const{
+    int size() const {
         return theSize;
     }
 
-    void push_back(const Object & x){
-        if (theSize == theCapatity){
-            resize(2*theCapatity+1);
-        } else{
-            objects[theSize++]=move(x);
+    void push_back(const Object &x) {
+        if (theSize == theCapatity) {
+            resize(2 * theCapatity + 1);
+        } else {
+            objects[theSize++] = move(x);
         }
     }
-    void pop_back(){
+
+    void pop_back() {
         --theSize;
     }
-    const Object & back(){
+
+    const Object &back() {
         return objects[theSize - 1];
     }
 
-    typedef Object * iterator;
-    typedef const Object* const_iterator;
+    typedef Object *iterator;
+    typedef const Object *const_iterator;
 
-    iterator begin(){
+    iterator begin() {
         return &objects[0];
     }
 
-    iterator end(){
+    iterator end() {
         return &objects[size()];
     }
 
 
     static const int SPARE_CAPACITY = 16;
 
-    void pri(int k= 3){
-        cout<<objects[k]<<endl;
-    }
-    ;
+    void pri(int k = 3) {
+        cout << objects[k] << endl;
+    };
     int theSize;
     int theCapatity;
-    Object * objects;
+    Object *objects;
 };
 
 
-int main(){
+int main() {
     Vector<int> v1;
     for (int i = 0; i < 16; ++i) {
         v1.push_back(i);
-        cout<<v1[i]<<"  ";
+        cout << v1[i] << "  ";
         //cout<<v1[i]<<" ";
     }
-    cout<<v1.empty();cout<<endl;
-    cout<<v1.theSize;cout<<endl;
-    Vector<int> v2(  v1);
+    cout << v1.empty();
+    cout << endl;
+    cout << v1.theSize;
+    cout << endl;
+    Vector<int> v2(v1);
     for (int i = 0; i < 16; ++i) {
-        cout<<v2[i]<<"  ";
+        cout << v2[i] << "  ";
     }
 
 }
