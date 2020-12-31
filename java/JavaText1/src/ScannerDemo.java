@@ -2,8 +2,26 @@ import java.util.Scanner;
 
 public class ScannerDemo {
     public static void main(String[] args) {
-        Scanner se = new Scanner(System.in);
-        int i = se.nextInt();
-        System.out.println("i " + i);
+        son s = new son();
+        System.out.println(s.aa);
+        System.out.println(s.bb);
+        s.PrintAA();
+        s.PrintBB();
+    }
+}
+
+class father {
+    int aa = 2;
+
+    void PrintAA() {
+        System.out.println(aa);
+    }
+}
+
+class son extends father {
+    int bb = 5;
+
+    void PrintBB() {
+        System.out.println(bb);
     }
 }
