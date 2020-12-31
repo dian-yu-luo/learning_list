@@ -20,8 +20,5 @@ class Object_son: public Object{
 };
 
 int main(){
-        cout<<"ching";
-        int a , b;
-        swap(a,b);
-        swap(a,b);
+
 }
