@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99b376b6-ee91-4503-87ce-ae4e41e96eed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nlist.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/list.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myList.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stl_container/vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp store/about_vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp store/text_my_list.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/renew/No_10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/renew/No_11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/renew/No_12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/renew/No_13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/renew/No_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/renew/No_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/renew/No_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/renew/No_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/renew/No_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/renew/No_9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/renew/first_blood.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/renew/no_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/renew/src/IMG20160208170318.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/renew/src/css/No_1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/try/No_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/try/No_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/try/No_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/try/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/html_learning/try/first_blood.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/totally html/html_question_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/totally html/try/No_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/totally html/try/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html/totally html/try/first_blood.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1mpF2TgtfpKFV32Tc3ZMYHdq9C1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99b376b6-ee91-4503-87ce-ae4e41e96eed" name="Default Changelist" comment="" />
+      <created>1610182420912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610182420912</updated>
+      <workItem from="1610182423034" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
