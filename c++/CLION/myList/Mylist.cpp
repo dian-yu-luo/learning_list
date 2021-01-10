@@ -97,37 +97,50 @@ public:
 
 public:
     List() {
-
+        init();
     }
 
     List(const List &rhs) {
+        init();
+        for (auto &x:rhs) {
+            push_back(x);
 
+        }
     }
 
     ~List() {
-
+        clear();
+        delete head;
+        delete tail;
     }
 
-//    List &operator=() {
-//
-//    }
+    List &operator=(const List &rhs) {
+        List copy = rhs;
+        swap(*this, copy);
+        return *this;
+    }
 
-    List(List &&rhs) {
-//        we need to focus on that,I can't understand that &&
+    List(List &&rhs) : theSize{rhs.theSize}, head{rhs.head}, tail{rhs.tail} {
+        rhs.theSize = 0;
+        rhs.head = nullptr;
+        rhs.tail = nullptr;
     }
 
     List &operator=(List &&rhs) {
-
+        swap(theSize, rhs.theSize);
+        swap(head, rhs.head);
+        swap(tail, rhs, tail);
+        return *this;
     }
 
 
     //I need to overcome it after achieveing iterator
     iterator begin() {
-        return ()
+        return {head->next};
     }
 
-    const_iterator begin() {
-
+    const_iterator begin() const{
+        return {head->next};
     }
 
     iterator end() {
@@ -146,10 +159,10 @@ public:
         return size() == 0;
     }
 
-//    void clear(){
-//        while (!empty())
-//
-//    }
+    void clear() {
+        while (!empty())
+            pop_front();
+    }
 
     Object &front() {
         return *begin();
@@ -168,48 +181,74 @@ public:
     }
 
     void push_front(const Object &x) {
+        insert(begin(),x);
 
     }
 
     //never know about &&
     void push_front(Object &&x) {
-
+        insert(begin(),move(x));
     }
 
     void push_back(const Object &x) {
-
+        insert(end(), x);
     }
 
     void push_back(Object &&x) {
-
+        insert(end(),move(x));
     }
 
     void pop_front() {
-
+        erase(begin());
     }
 
     void pop_back() {
-
+        erase(end());
     }
 
 
     iterator insert(iterator itr, const Object &x) {
-
+        Node *p = itr.current;
+        theSize++;
+        return {
+                p->prev = p->prev->next = new Node{x, p->prev, p}
+        };
     }
 
     iterator insert(iterator itr, Object &&x) {
-
+        Node *p = itr.current;
+        theSize++;
+        return {
+                p->prev = p->prev->next = new Node{
+                        move(x), p->prev, p
+                }
+        };
     }
 
     iterator erase(iterator itr) {
-
+        Node *p = itr.current;
+        iterator retVal{p->next};
+        p->prev->next = p->next;
+        p->next->prev = p->prev;
+        delete p;
+        theSize--;
+        return retVal;
     }
 
     iterator erase(iterator from, iterator to) {
+        for (iterator itr = from; itr != to;) {
+            itr = erase(itr);
 
+        }
+        return to;
     }
 
     void init() {
+        theSize = 0;
+        head = new Node;
+        tail = new Node;
+        head->next = tail;
+        tail->prev = head;
 
     }
 
