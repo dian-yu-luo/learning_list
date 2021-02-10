@@ -1,3 +1,11 @@
 Python的[]
 	列表
+r"string"
+	防止字符转义
 	
+os.system
+	常用的命令
+		调用的c语言的system命令
+		发出dos命令
+			常用的dos命令
+		

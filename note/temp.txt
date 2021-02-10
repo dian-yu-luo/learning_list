@@ -1,0 +1,10 @@
+temp
+	为什么要进行h 和cpp分离
+	
+	main函数的默认参数
+	
+
+	emacs的按键和输入法冲突
+		ctrl + space
+		可修改
+		

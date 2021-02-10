@@ -3,4 +3,4 @@ project(workasaBee)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(workasaBee Dome.cpp)
+add_executable(workasaBee dome.cpp)
