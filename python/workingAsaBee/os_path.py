@@ -1,4 +1,13 @@
 import os
-print(os.system("gcc -v"))
-a=input("go on")
-print(a)
+import sys
+print(os.getcwd())
+
+
+
+
+
+
+
+
+
+input("")
