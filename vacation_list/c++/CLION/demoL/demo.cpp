@@ -7,5 +7,8 @@ int main(){
         a[i]=i+1;
         cout<<a[i]<<" ";
     }
-    
+    cout<<endl;
+    int b;
+    cin>>b;
+    cout<<a[b];
 }
