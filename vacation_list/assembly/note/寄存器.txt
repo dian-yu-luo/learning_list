@@ -2,8 +2,9 @@
 	ax，bx,cx,dx.
 		通用寄存器可以分左右的
 	
-	ds：内存段寄存器
+	ds：si内存段寄存器
 
 	cs ：ip 命令执行寄存器，命令开始执行的位置
 
 
+https://blog.csdn.net/happylzs2008/article/details/105243075
