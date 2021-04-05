@@ -1,0 +1,14 @@
+格式
+	try {
+            strLength=str.length();
+        }catch (NullPointerException e){
+            System.out.println("wrong");
+        }
+    只有第一行出错，才会执行第二行
+
+    用在声明方法时，表示该方法可能要抛出异常
+    	如下
+    	public static void service(Socket socket)throws Exception{
+        
+    }
+    	必须进行代码异常处理

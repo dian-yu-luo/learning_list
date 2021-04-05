@@ -6,5 +6,6 @@
 
 	cs ：ip 命令执行寄存器，命令开始执行的位置
 
+	ss:sp 堆栈寄存器，指向栈顶
 
 https://blog.csdn.net/happylzs2008/article/details/105243075
