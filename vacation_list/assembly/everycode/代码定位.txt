@@ -1,0 +1,40 @@
+--------------------------------------------------
+
+assume cs:code,ds:datasg
+datasg segment
+	db 'unIX'
+	db 'foRkOUasd'
+datasg ends
+
+
+
+
+code segment
+	start:  
+			mov ax,datasg
+			mov ds,ax
+			mov	bx,0
+			mov cx,4
+		s:	mov al,[bx]
+			and al,11011111b
+			mov [bx],al
+			inc bx
+			loop s
+
+			mov bx,5
+			mov cx,9
+		s0:	mov al,[bx]
+			or al,00100000b
+			mov [bx],al
+			inc bx
+			loop s0
+
+
+
+
+			mov ax,4c00h
+			int 21h
+code ends
+end start
+--------------------------------------------------
+--------------------------------------------------

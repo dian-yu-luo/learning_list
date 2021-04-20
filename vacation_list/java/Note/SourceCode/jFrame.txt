@@ -1,0 +1,2 @@
+locale
+	local的名词化
