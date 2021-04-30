@@ -1,0 +1,8 @@
+查看系统版本
+	etc/redhet-releace
+新建用户
+	adduser [name]
+	passwd name
+		允许强行忽略用户问题
+
+全部更改用户密码 liangn
