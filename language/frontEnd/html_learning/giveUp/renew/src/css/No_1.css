@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(145, 214, 166);
+}
+
+p {
+    color: rgb(108, 65, 225);
+    font-size: xx-large;
+    font-family: 楷体;
+}
+
+.box {
+    font-size: 9ch;
+    background-color: rebeccapurple;
+}
+
+.box2 {
+    background-color: red;
+    font-style: oblique;
+    font-size: 120px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+.juzhong{
+    background-color: green;
+    border-top: 15px;
+    border-bottom: 15px;
+}

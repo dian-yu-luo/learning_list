@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <!-- 主要是不被显式的看出来的放在head里面 -->
+    <head>
+        <title>
+            
+        </title>
+        
+    </head>
+    <body >
+        <p>
+            
+        </p>
+    </body>
+</html>
+
+
+
+
+
+<head>
+    下面这些标签可用在head 部分：<base>, <link>, <meta>, <script>, <style>, 以及 <title>。
+        
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
