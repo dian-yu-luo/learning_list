@@ -79,5 +79,5 @@ private:
 
 int main() {
 
-
+cout<<"liangzho拉水电费看 ";
 }
