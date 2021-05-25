@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/server/HTTPServer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/server/HTTPServer1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/server/HelloServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/server/Servlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/server/root/hello3.htm" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/server/root/index.htm" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/server/root/javabook.htm" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/server/root/mytext.htm" charset="GBK" />
+  </component>
+</project>
