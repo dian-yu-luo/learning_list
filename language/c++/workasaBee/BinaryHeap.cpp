@@ -11,7 +11,11 @@ class BinaryHeap {
 public:
     explicit BinaryHeap(int capacity = 100);
 
-    explicit BinaryHeap(const vector<Comparable> &items);
+    explicit BinaryHeap(const vector<Comparable> &items) : array(items.size() + 10), currentSize(items.size()) {
+        for (int i = 0; i < items.size(); ++i) {
+            array[i+1]=items[i];
+        }buildHeap();
+    };
 
     bool isEmpty() const;
 
@@ -42,11 +46,11 @@ public:
         percolateDown(1);
     };
 
-    void deleteMin(Comparable &minItem){
+    void deleteMin(Comparable &minItem) {
         if (isEmpty())
             throw UnderflowException{};
         minItem = move(array[1]);
-        array[1]= move(array[currentSize--]);
+        array[1] = move(array[currentSize--]);
         percolateDown(1);
     };
 
@@ -58,7 +62,11 @@ private:
     vector<Comparable> array;
 //    表示把所有的元素存在一个实例中
 
-    void buildHeap();
+    void buildHeap() {
+        for(int i=currentSize/2;i>0;--i){
+            percolateDown(i);
+        }
+    };
 
     void percolateDown(int hole) {
         int child;
@@ -79,5 +87,5 @@ private:
 
 int main() {
 
-cout<<"liangzho拉水电费看 ";
+    cout << "liangzho拉水电费看 ";
 }
