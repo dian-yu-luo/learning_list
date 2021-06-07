@@ -1,17 +1,5 @@
-# vacation_learning_list
-to remeber what I have learned
+- # 总结活动
 
-**listed package**
+  笔记的记录位置
 
-- assembly  
--  frontEnd   
-- java     
--  Linux   
-- note     
-- Web 
-- c++   
-- ​     GitHub   
--   LeetCode   
-- MySQL  
--  python   
-- 搭建网站日记 
+  
