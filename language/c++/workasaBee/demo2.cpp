@@ -1,4 +1,5 @@
 ﻿#include "iostream"
+#include "deque"
 using namespace std;
 
 class  folwerror{
@@ -15,13 +16,6 @@ void func(int a){
 }
 
 int main(){
-    cout<<endl<<" ";
-    func(1);
-    cout<<"liang";
-    cout<<"liang";
-    cout<<"liang";
-    cout<<"liang";
-    cout<<"liang";
-    cout<<"liang";
-
+    deque<int> de;
+    de.push_back()
 }

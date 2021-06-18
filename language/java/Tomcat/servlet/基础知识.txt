@@ -1,0 +1,16 @@
+接口（各种骚操作）
+什么是注解	
+	注解不是必须的
+
+web.xml和注解是可以用时进行的
+
+依赖log查看起始配置文件，让Tomcat 和idea联系起来，但是之后可以容易的进行分离
+
+两件事
+https://www.bilibili.com/video/BV1qv4y1o79t?p=238&spm_id_from=pageDriver
+
+get和post的区别
+	
+怎么提高解耦能力
+
+完成各种接口（手动完成）
